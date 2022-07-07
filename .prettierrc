@@ -1,12 +1,21 @@
 {
+  "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
   "singleQuote": true,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": false,
   "trailingComma": "all",
-  "overrides": [
-    {
-      "files": "*.hbs",
-      "options": {
-        "singleQuote": false
-      }
-    }
-  ]
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "arrowParens": "always",
+  "requirePragma": false,
+  "insertPragma": false,
+  "proseWrap": "preserve",
+  "htmlWhitespaceSensitivity": "css",
+  "vueIndentScriptAndStyle": true,
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto",
+  "singleAttributePerLine": false
 }
